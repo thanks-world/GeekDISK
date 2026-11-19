@@ -1,10 +1,4 @@
 **声明：主要是对于进程和cpu磁盘的检查，其他功能慎用**
-# GeekDISK
-## 一、README_LINUX.md
-```bash
-cd ~/桌面/to-for-playgeek/GeekDash/Projects/GeekDash-Project-v8.0 || exit 1
-
-cat > README_LINUX.md <<'EOF'
 # GeekDash Linux
 
 **版本：v1.0.0**
@@ -566,24 +560,8 @@ GeekDash 的系统级功能涉及系统信息读取和网络审计。
 
 发行格式：DEB / RPM / ZIP
 
-EOF
-
-echo "========== README 创建完成 =========="
-ls -lh README_LINUX.md
-
-echo
-echo "========== 文档行数 =========="
-wc -l README_LINUX.md
-
-echo
-echo "========== 版本号检查 =========="
-grep -nE 'v1\.0\.0|8\.0\.0|GLIBC_2\.43' README_LINUX.md
-```
 
 ## 二、这份 README 的定位
-
-这不是简单的安装说明，而是 Linux 用户使用文档，包含：
-
 1. 产品介绍。
 2. 系统要求。
 3. DEB 安装。
